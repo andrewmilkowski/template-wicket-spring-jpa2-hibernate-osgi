@@ -1,0 +1,8 @@
+*.swp
+*.iml
+.idea
+*.stdout
+*.stderr
+logs/
+lib/
+target/

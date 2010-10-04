@@ -1,0 +1,15 @@
+OSGI CRUD Template using Wicket/Spring/JPA/Hibernate 
+
+Source: http://iocanel.blogspot.com/2010/07/wicket-spring-3-jpa2-hibernate-osgi.html
+
+Tested using Karaf OSGi runtime (http://felix.apache.org/site/apache-felix-karaf.html)
+
+Note:
+
+It was neccessary to make "com.mysql.jdbc.*" available to the Karaf container by 
+
+1. adding package in etc/config.properties
+
+org.osgi.framework.bootdelegation=sun.*,com.sun.*,javax.transaction,javax.transaction.*,com.mysql.jdbc.*
+
+2. copying com.springsource.com.mysql.jdbc-5.1.6.jar to lib/endorsed
