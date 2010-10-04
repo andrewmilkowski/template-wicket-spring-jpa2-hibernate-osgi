@@ -6,7 +6,7 @@ Tested using Karaf OSGi runtime (http://felix.apache.org/site/apache-felix-karaf
 
 Note:
 
-It was neccessary to make "com.mysql.jdbc.*" available to the Karaf container by 
+It was necessary to make "com.mysql.jdbc.*" available to the Karaf container by 
 
 1. adding package in etc/config.properties
 
